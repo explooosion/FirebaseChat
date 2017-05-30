@@ -1,0 +1,10 @@
+<div class="message" id="message">
+  <ul id="message-box">
+    {{ moveScroll() }}
+    <li *ngFor="let d of data">
+      <span>{{ d.usr }}</span>
+      <span>{{ d.msg }}</span>
+      <span>{{ d.date }}</span>
+    </li>
+  </ul>
+</div>
