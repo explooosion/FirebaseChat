@@ -1,0 +1,43 @@
+.message {
+  overflow-y: scroll;
+  margin: 20px 0;
+  padding: 10px 30px;
+  width: inherit;
+  height: 500px;
+  background: #F6F6FE;
+  border-radius: 6px;
+}
+
+.message ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.message ul li {
+  padding: 10px 15px;
+  margin: 15px 0;
+  width: auto;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.message ul li span {
+  color: #444;
+  letter-spacing: 1px;
+}
+
+.message ul li span:first-child {
+  color: #222;
+  font-weight: bold;
+}
+
+.message ul li span:first-child::after {
+  content: '：';
+}
+
+.message ul li span:last-child {
+  float: right;
+  color: #aaa;
+  font-size: 14px;
+}

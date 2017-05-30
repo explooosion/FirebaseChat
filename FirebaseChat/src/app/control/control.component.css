@@ -1,0 +1,13 @@
+.control {
+  width: inherit;
+  text-align: center;
+  height: 50px;
+}
+
+.control .control-group {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}

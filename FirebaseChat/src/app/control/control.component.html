@@ -1,0 +1,13 @@
+<div class="control">
+  <div class="control-group">
+    <span>Name：</span>
+    <input type="text" id="usr" class="text" placeholder="name" [(ngModel)]="usr">
+  </div>
+  <div class="control-group">
+    <span>Message：</span>
+    <input type="text" id="msg" class="text text-lg" placeholder="message" [(ngModel)]="msg" (keypress)="addIitemListener($event)">
+  </div>
+  <div class="control-group">
+    <button type="button" class="btn btn-primary" (click)="addItem()">Send</button>
+  </div>
+</div>
