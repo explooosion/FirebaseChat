@@ -1,8 +1,10 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/explooosion/FirebaseChat/blob/master/LICENSE)
  
-
 # FirebaseChat
 firebase chat build with angular2
+
+## Demo
+[FirebaseChat](https://chat.robby570.tw/)
 
 ## Install
 
