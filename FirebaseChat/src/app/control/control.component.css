@@ -11,3 +11,23 @@
   font-weight: bold;
   color: #444;
 }
+
+@media screen and (max-width:768px) {
+  .control {
+    text-align: left;
+  }
+  .control .control-group {
+    display: block;
+    margin: 20px 5px;
+  }
+  .control .control-group span {
+    display: inline-block;
+    width: 30%;
+  }
+  .control .control-group .text {
+    width: 60%;
+  }
+  .control .control-group .btn {
+    width: 100%;
+  }
+}

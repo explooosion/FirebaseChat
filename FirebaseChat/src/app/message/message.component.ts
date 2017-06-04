@@ -22,8 +22,9 @@ export class MessageComponent {
 
         let date;
         let diff = moment(item[i].date).diff(moment().format('YYYY-MM-DD HH:mm:ss'), 'days');
-        if (diff > 0) {
-          date = moment(item[i].date).format('MM-DD hh:mm:ss a');
+        console.log(diff);
+        if (diff) {
+          date = moment(item[i].date).format('MM/DD hh:mm:ss a');
         } else {
           date = moment(item[i].date).format('hh:mm:ss a');
         }
